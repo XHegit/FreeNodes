@@ -1,4 +1,4 @@
-2026-05-23 05:44:40 [scrapy.middleware] INFO: Enabled downloader middlewares:
+2026-05-23 10:00:22 [scrapy.middleware] INFO: Enabled downloader middlewares:
 ['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
  'scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
  'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
@@ -13,51 +13,51 @@
  'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
  'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
  'scrapy.downloadermiddlewares.stats.DownloaderStats']
-2026-05-23 05:44:40 [py.warnings] WARNING: /opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/scrapy/core/downloader/middleware.py:46: ScrapyDeprecationWarning: RandomUserAgentMiddleware.process_request() requires a spider argument, this is deprecated and the argument will not be passed in future Scrapy versions. If you need to access the spider instance you can save the crawler instance passed to from_crawler() and use its spider attribute.
+2026-05-23 10:00:22 [py.warnings] WARNING: /opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/scrapy/core/downloader/middleware.py:46: ScrapyDeprecationWarning: RandomUserAgentMiddleware.process_request() requires a spider argument, this is deprecated and the argument will not be passed in future Scrapy versions. If you need to access the spider instance you can save the crawler instance passed to from_crawler() and use its spider attribute.
   self._check_mw_method_spider_arg(mw.process_request)
 
-2026-05-23 05:44:40 [scrapy.middleware] INFO: Enabled spider middlewares:
+2026-05-23 10:00:22 [scrapy.middleware] INFO: Enabled spider middlewares:
 ['scrapy.spidermiddlewares.start.StartSpiderMiddleware',
  'scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
  'scrapy.spidermiddlewares.referer.RefererMiddleware',
  'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
  'scrapy.spidermiddlewares.depth.DepthMiddleware']
-2026-05-23 05:44:40 [scrapy.middleware] INFO: Enabled item pipelines:
+2026-05-23 10:00:22 [scrapy.middleware] INFO: Enabled item pipelines:
 ['NodeScrapy.pipelines.Pipeline']
-2026-05-23 05:44:40 [py.warnings] WARNING: /opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/scrapy/pipelines/__init__.py:43: ScrapyDeprecationWarning: Pipeline.open_spider() requires a spider argument, this is deprecated and the argument will not be passed in future Scrapy versions. If you need to access the spider instance you can save the crawler instance passed to from_crawler() and use its spider attribute.
+2026-05-23 10:00:22 [py.warnings] WARNING: /opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/scrapy/pipelines/__init__.py:43: ScrapyDeprecationWarning: Pipeline.open_spider() requires a spider argument, this is deprecated and the argument will not be passed in future Scrapy versions. If you need to access the spider instance you can save the crawler instance passed to from_crawler() and use its spider attribute.
   self._check_mw_method_spider_arg(mw.open_spider)
 
-2026-05-23 05:44:40 [py.warnings] WARNING: /opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/scrapy/pipelines/__init__.py:46: ScrapyDeprecationWarning: Pipeline.close_spider() requires a spider argument, this is deprecated and the argument will not be passed in future Scrapy versions. If you need to access the spider instance you can save the crawler instance passed to from_crawler() and use its spider attribute.
+2026-05-23 10:00:22 [py.warnings] WARNING: /opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/scrapy/pipelines/__init__.py:46: ScrapyDeprecationWarning: Pipeline.close_spider() requires a spider argument, this is deprecated and the argument will not be passed in future Scrapy versions. If you need to access the spider instance you can save the crawler instance passed to from_crawler() and use its spider attribute.
   self._check_mw_method_spider_arg(mw.close_spider)
 
-2026-05-23 05:44:40 [py.warnings] WARNING: /opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/scrapy/pipelines/__init__.py:49: ScrapyDeprecationWarning: Pipeline.process_item() requires a spider argument, this is deprecated and the argument will not be passed in future Scrapy versions. If you need to access the spider instance you can save the crawler instance passed to from_crawler() and use its spider attribute.
+2026-05-23 10:00:22 [py.warnings] WARNING: /opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/scrapy/pipelines/__init__.py:49: ScrapyDeprecationWarning: Pipeline.process_item() requires a spider argument, this is deprecated and the argument will not be passed in future Scrapy versions. If you need to access the spider instance you can save the crawler instance passed to from_crawler() and use its spider attribute.
   self._check_mw_method_spider_arg(mw.process_item)
 
-2026-05-23 05:44:40 [scrapy.core.engine] INFO: Spider opened
-2026-05-23 05:44:40 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
-2026-05-23 05:44:40 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
-2026-05-23 05:44:40 [scrapy.core.engine] INFO: Closing spider (finished)
-2026-05-23 05:44:40 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
-{'elapsed_time_seconds': 0.001961453000006941,
+2026-05-23 10:00:22 [scrapy.core.engine] INFO: Spider opened
+2026-05-23 10:00:22 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2026-05-23 10:00:22 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2026-05-23 10:00:22 [scrapy.core.engine] INFO: Closing spider (finished)
+2026-05-23 10:00:22 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'elapsed_time_seconds': 0.002369323000039003,
  'finish_reason': 'finished',
- 'finish_time': datetime.datetime(2026, 5, 23, 5, 44, 40, 55788, tzinfo=datetime.timezone.utc),
+ 'finish_time': datetime.datetime(2026, 5, 23, 10, 0, 22, 265826, tzinfo=datetime.timezone.utc),
  'items_per_minute': None,
  'log_count/INFO': 3,
- 'memusage/max': 248131584,
- 'memusage/startup': 248131584,
+ 'memusage/max': 247721984,
+ 'memusage/startup': 247721984,
  'responses_per_minute': None,
- 'start_time': datetime.datetime(2026, 5, 23, 5, 44, 40, 53808, tzinfo=datetime.timezone.utc)}
-2026-05-23 05:44:40 [scrapy.core.engine] INFO: Spider closed (finished)
-2026-05-23 05:44:59 [scrapy.addons] INFO: Enabled addons:
+ 'start_time': datetime.datetime(2026, 5, 23, 10, 0, 22, 263453, tzinfo=datetime.timezone.utc)}
+2026-05-23 10:00:22 [scrapy.core.engine] INFO: Spider closed (finished)
+2026-05-23 10:00:43 [scrapy.addons] INFO: Enabled addons:
 []
-2026-05-23 05:45:00 [scrapy.extensions.telnet] INFO: Telnet Password: 817ee31df50ca539
-2026-05-23 05:45:00 [scrapy.middleware] INFO: Enabled extensions:
+2026-05-23 10:00:43 [scrapy.extensions.telnet] INFO: Telnet Password: 83863b367841889a
+2026-05-23 10:00:43 [scrapy.middleware] INFO: Enabled extensions:
 ['scrapy.extensions.corestats.CoreStats',
  'scrapy.extensions.logcount.LogCount',
  'scrapy.extensions.telnet.TelnetConsole',
  'scrapy.extensions.memusage.MemoryUsage',
  'scrapy.extensions.logstats.LogStats']
-2026-05-23 05:45:00 [scrapy.crawler] INFO: Overridden settings:
+2026-05-23 10:00:43 [scrapy.crawler] INFO: Overridden settings:
 {'BOT_NAME': 'NodeScrapy',
  'FEED_EXPORT_ENCODING': 'utf-8',
  'LOG_FILE': 'scrapy.log',
@@ -65,7 +65,7 @@
  'NEWSPIDER_MODULE': 'NodeScrapy.spiders',
  'ROBOTSTXT_OBEY': True,
  'SPIDER_MODULES': ['NodeScrapy.spiders']}
-2026-05-23 05:45:00 [scrapy.middleware] INFO: Enabled downloader middlewares:
+2026-05-23 10:00:44 [scrapy.middleware] INFO: Enabled downloader middlewares:
 ['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
  'scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
  'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
@@ -80,38 +80,38 @@
  'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
  'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
  'scrapy.downloadermiddlewares.stats.DownloaderStats']
-2026-05-23 05:45:00 [py.warnings] WARNING: /opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/scrapy/core/downloader/middleware.py:46: ScrapyDeprecationWarning: RandomUserAgentMiddleware.process_request() requires a spider argument, this is deprecated and the argument will not be passed in future Scrapy versions. If you need to access the spider instance you can save the crawler instance passed to from_crawler() and use its spider attribute.
+2026-05-23 10:00:44 [py.warnings] WARNING: /opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/scrapy/core/downloader/middleware.py:46: ScrapyDeprecationWarning: RandomUserAgentMiddleware.process_request() requires a spider argument, this is deprecated and the argument will not be passed in future Scrapy versions. If you need to access the spider instance you can save the crawler instance passed to from_crawler() and use its spider attribute.
   self._check_mw_method_spider_arg(mw.process_request)
 
-2026-05-23 05:45:00 [scrapy.middleware] INFO: Enabled spider middlewares:
+2026-05-23 10:00:44 [scrapy.middleware] INFO: Enabled spider middlewares:
 ['scrapy.spidermiddlewares.start.StartSpiderMiddleware',
  'scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
  'scrapy.spidermiddlewares.referer.RefererMiddleware',
  'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
  'scrapy.spidermiddlewares.depth.DepthMiddleware']
-2026-05-23 05:45:00 [scrapy.middleware] INFO: Enabled item pipelines:
+2026-05-23 10:00:44 [scrapy.middleware] INFO: Enabled item pipelines:
 ['NodeScrapy.pipelines.Pipeline']
-2026-05-23 05:45:00 [py.warnings] WARNING: /opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/scrapy/pipelines/__init__.py:43: ScrapyDeprecationWarning: Pipeline.open_spider() requires a spider argument, this is deprecated and the argument will not be passed in future Scrapy versions. If you need to access the spider instance you can save the crawler instance passed to from_crawler() and use its spider attribute.
+2026-05-23 10:00:44 [py.warnings] WARNING: /opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/scrapy/pipelines/__init__.py:43: ScrapyDeprecationWarning: Pipeline.open_spider() requires a spider argument, this is deprecated and the argument will not be passed in future Scrapy versions. If you need to access the spider instance you can save the crawler instance passed to from_crawler() and use its spider attribute.
   self._check_mw_method_spider_arg(mw.open_spider)
 
-2026-05-23 05:45:00 [py.warnings] WARNING: /opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/scrapy/pipelines/__init__.py:46: ScrapyDeprecationWarning: Pipeline.close_spider() requires a spider argument, this is deprecated and the argument will not be passed in future Scrapy versions. If you need to access the spider instance you can save the crawler instance passed to from_crawler() and use its spider attribute.
+2026-05-23 10:00:44 [py.warnings] WARNING: /opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/scrapy/pipelines/__init__.py:46: ScrapyDeprecationWarning: Pipeline.close_spider() requires a spider argument, this is deprecated and the argument will not be passed in future Scrapy versions. If you need to access the spider instance you can save the crawler instance passed to from_crawler() and use its spider attribute.
   self._check_mw_method_spider_arg(mw.close_spider)
 
-2026-05-23 05:45:00 [py.warnings] WARNING: /opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/scrapy/pipelines/__init__.py:49: ScrapyDeprecationWarning: Pipeline.process_item() requires a spider argument, this is deprecated and the argument will not be passed in future Scrapy versions. If you need to access the spider instance you can save the crawler instance passed to from_crawler() and use its spider attribute.
+2026-05-23 10:00:44 [py.warnings] WARNING: /opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/scrapy/pipelines/__init__.py:49: ScrapyDeprecationWarning: Pipeline.process_item() requires a spider argument, this is deprecated and the argument will not be passed in future Scrapy versions. If you need to access the spider instance you can save the crawler instance passed to from_crawler() and use its spider attribute.
   self._check_mw_method_spider_arg(mw.process_item)
 
-2026-05-23 05:45:00 [scrapy.core.engine] INFO: Spider opened
-2026-05-23 05:45:00 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
-2026-05-23 05:45:00 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
-2026-05-23 05:45:00 [scrapy.core.engine] INFO: Closing spider (finished)
-2026-05-23 05:45:00 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
-{'elapsed_time_seconds': 0.057793877999984034,
+2026-05-23 10:00:44 [scrapy.core.engine] INFO: Spider opened
+2026-05-23 10:00:44 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2026-05-23 10:00:44 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2026-05-23 10:00:44 [scrapy.core.engine] INFO: Closing spider (finished)
+2026-05-23 10:00:44 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'elapsed_time_seconds': 0.06240998699990996,
  'finish_reason': 'finished',
- 'finish_time': datetime.datetime(2026, 5, 23, 5, 45, 0, 333852, tzinfo=datetime.timezone.utc),
+ 'finish_time': datetime.datetime(2026, 5, 23, 10, 0, 44, 98526, tzinfo=datetime.timezone.utc),
  'items_per_minute': None,
  'log_count/INFO': 3,
- 'memusage/max': 246419456,
- 'memusage/startup': 246419456,
+ 'memusage/max': 245915648,
+ 'memusage/startup': 245915648,
  'responses_per_minute': None,
- 'start_time': datetime.datetime(2026, 5, 23, 5, 45, 0, 276056, tzinfo=datetime.timezone.utc)}
-2026-05-23 05:45:00 [scrapy.core.engine] INFO: Spider closed (finished)
+ 'start_time': datetime.datetime(2026, 5, 23, 10, 0, 44, 36114, tzinfo=datetime.timezone.utc)}
+2026-05-23 10:00:44 [scrapy.core.engine] INFO: Spider closed (finished)
